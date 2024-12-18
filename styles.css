@@ -1,20 +1,25 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #557d24;
 }
 
 #level-title {
-  font-family: 'Press Start 2P', cursive;
+  /* font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
   margin:  5%;
-  color: #FEF2BF;
+  color: #FEF2BF; */
+  font-family: "Playwrite ES Deco Guides", serif;
+  font-size: 3rem;
+  font-weight: 500;
+  font-style: normal;
+  /* color: #FEF2BF;  */
+  margin:  5%;
 }
 
 .container {
   display: block;
   width: 50%;
   margin: auto;
-
 }
 
 .btn {
@@ -23,11 +28,11 @@ body {
   height: 200px;
   width: 200px;
   border: 10px solid black;
-  border-radius: 20%;
+  border-radius: 15%;
 }
 
 .game-over {
-  background-color: red;
+  background-color: rgb(242, 234, 234);
   opacity: 0.8;
 }
 
@@ -50,4 +55,11 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  margin-top: 20%;
+  margin-bottom: 20%;
 }
